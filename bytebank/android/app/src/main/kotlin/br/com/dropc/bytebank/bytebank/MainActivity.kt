@@ -1,4 +1,4 @@
-package br.com.dropc.bytebank.Alura
+package br.com.dropc.bytebank.bytebank
 
 import io.flutter.embedding.android.FlutterActivity
 
