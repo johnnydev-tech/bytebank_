@@ -43,7 +43,7 @@ class _EsqueceuSenhaState extends State<EsqueceuSenha> {
   signIn(String email) async {
     SharedPreferences sharedPreferences = await SharedPreferences.getInstance();
     Map data = {'email': email};
-    var jsonResponse = null;
+    var jsonResponse;
 
     var response =
         await http.post(api.urlBase + "/Usuario/EsqueceuSenha", body: data);

@@ -1,8 +1,6 @@
-
 String nomemsg = "";
 String msgemail = "";
-String msg ="";
-
+String msg = "";
 
 String validarNome(String value) {
   String patttern = r'(^[a-zA-Z ]*$)';
@@ -30,18 +28,11 @@ String validarEmail(String value) {
   }
 }
 
-String ValidarSenha(String value) {
+String validarSenha(String value) {
   if (value.isEmpty || value.length < 6) {
-    return msg =
-    "A Senha precisa ter pelo menos 6 caracteres!";
-  }
-    else{
-      msg = "";
-      return null;
-
+    return msg = "A Senha precisa ter pelo menos 6 caracteres!";
+  } else {
+    msg = "";
+    return null;
   }
 }
-
-
-
-

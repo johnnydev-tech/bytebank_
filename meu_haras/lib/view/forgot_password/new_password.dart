@@ -6,7 +6,6 @@ import 'package:http/http.dart' as http;
 import 'package:meu_haras/Services/api.dart' as api;
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:meu_haras/Utils/Util.dart';
 
 class NovaSenha extends StatefulWidget {
   final String pin;
@@ -57,7 +56,7 @@ class _NovaSenhaState extends State<NovaSenha> {
           color: Colors.white,
           child: ListView(
             children: <Widget>[
-              Header(),
+              _header(),
               textSection(),
               SizedBox(height: 10.0),
               _isLoading ? Center(child: CircularProgressIndicator()) : button()
@@ -75,7 +74,7 @@ class _NovaSenhaState extends State<NovaSenha> {
       'id': sharedPreferences.getString('usuario_id'),
       'pin': widget.pin
     };
-    var jsonResponse = null;
+    var jsonResponse;
 
     var response =
         await http.post(api.urlBase + "/Usuario/AlteraSenha", body: data);
@@ -165,7 +164,7 @@ class _NovaSenhaState extends State<NovaSenha> {
 
   final TextEditingController emailController = new TextEditingController();
 
-  Container Header() {
+  Container _header() {
     return Container(
       height: MediaQuery.of(context).size.height * .25,
       width: MediaQuery.of(context).size.width,
