@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:haras_app/view/Principal.dart';
+import 'package:meu_haras/view/Principal.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'Inicio.dart';
 
@@ -12,7 +12,7 @@ class _SplashState extends State<Splash> {
   SharedPreferences sharedPreferences;
 
   checkLoginStatus() async {
-    sharedPreferences = await SharedPreferences.getInstance();
+    SharedPreferences sharedPreferences = await SharedPreferences.getInstance();
     if (sharedPreferences.getString("token") != null) {
       Navigator.of(context).pushAndRemoveUntil(
           MaterialPageRoute(builder: (BuildContext context) => Principal()),
@@ -22,6 +22,9 @@ class _SplashState extends State<Splash> {
           MaterialPageRoute(builder: (BuildContext context) => Inicio()),
           (Route<dynamic> route) => false);
     }
+    Navigator.of(context).pushAndRemoveUntil(
+        MaterialPageRoute(builder: (BuildContext context) => Inicio()),
+        (Route<dynamic> route) => false);
   }
 
   void initState() {

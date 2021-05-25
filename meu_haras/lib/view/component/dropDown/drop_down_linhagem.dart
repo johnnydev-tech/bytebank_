@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:haras_app/Model/habilidade.dart';
-import 'package:haras_app/Controller/HabilidadeController.dart'
+import 'package:meu_haras/Model/habilidade.dart';
+import 'package:meu_haras/Controller/HabilidadeController.dart'
     as habilidadeAPI;
 
 class DropDownLinhagem extends StatefulWidget {

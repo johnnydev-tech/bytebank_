@@ -1,9 +1,9 @@
 import 'dart:convert';
 import 'package:flutter/cupertino.dart';
-import 'package:haras_app/Controller/AnuncioController.dart';
+import 'package:meu_haras/Controller/AnuncioController.dart';
 import 'package:flutter/material.dart';
-import 'package:haras_app/Model/anuncio.dart';
-import 'package:haras_app/view/Detalhes.dart';
+import 'package:meu_haras/Model/anuncio.dart';
+import 'package:meu_haras/view/Detalhes.dart';
 
 class Lista extends StatefulWidget {
   final String habilidade;

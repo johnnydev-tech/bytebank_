@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:haras_app/Controller/PelagemController.dart' as pelagemAPI;
-import 'package:haras_app/Model/pelagem.dart';
+import 'package:meu_haras/Controller/PelagemController.dart' as pelagemAPI;
+import 'package:meu_haras/Model/pelagem.dart';
 
 class DropDownPelagem extends StatefulWidget {
   final Function(String) onChange;

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:haras_app/Model/cidades.dart';
-import 'package:haras_app/Model/uf.dart';
-import 'package:haras_app/view/Principal.dart';
-import 'package:haras_app/Controller/UfController.dart' as UfController;
+import 'package:meu_haras/Model/cidades.dart';
+import 'package:meu_haras/Model/uf.dart';
+import 'package:meu_haras/view/Principal.dart';
+import 'package:meu_haras/Controller/UfController.dart' as UfController;
 
 class AlertRegiao extends StatefulWidget {
   @override

@@ -1,12 +1,12 @@
 import 'dart:convert';
-import 'package:haras_app/view/Cadastro.dart';
+import 'package:meu_haras/view/Cadastro.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:haras_app/Utils/Util.dart' as util;
+import 'package:meu_haras/Utils/Util.dart' as util;
 import 'package:http/http.dart' as http;
-import 'package:haras_app/Services/api.dart' as api;
+import 'package:meu_haras/Services/api.dart' as api;
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:haras_app/View/forgot_password/pin.dart';
+import 'package:meu_haras/View/forgot_password/pin.dart';
 
 class EsqueceuSenha extends StatefulWidget {
   @override

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:haras_app/Controller/TreinadoController.dart' as treinadoAPI;
-import 'package:haras_app/Model/treinado.dart';
+import 'package:meu_haras/Controller/TreinadoController.dart' as treinadoAPI;
+import 'package:meu_haras/Model/treinado.dart';
 
 class DropDownHabilidade extends StatefulWidget {
   final Function(String) onChange;

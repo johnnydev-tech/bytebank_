@@ -1,12 +1,12 @@
 import 'dart:convert';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:haras_app/view/forgot_password/forgot_password.dart';
-import 'package:haras_app/view/forgot_password/new_password.dart';
+import 'package:meu_haras/view/forgot_password/forgot_password.dart';
+import 'package:meu_haras/view/forgot_password/new_password.dart';
 import 'package:pin_entry_text_field/pin_entry_text_field.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:http/http.dart' as http;
-import 'package:haras_app/Services/api.dart' as api;
+import 'package:meu_haras/Services/api.dart' as api;
 
 class TelaPIN extends StatefulWidget {
   @override

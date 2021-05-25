@@ -3,11 +3,11 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:haras_app/Controller/ImagemController.dart';
-import 'package:haras_app/Model/imagens.dart';
-import 'package:haras_app/view/component/ImagemCompleta.dart';
-import 'package:haras_app/view/component/card_custom.dart';
-import 'package:haras_app/view/component/label_table.dart';
+import 'package:meu_haras/Controller/ImagemController.dart';
+import 'package:meu_haras/Model/imagens.dart';
+import 'package:meu_haras/view/component/ImagemCompleta.dart';
+import 'package:meu_haras/view/component/card_custom.dart';
+import 'package:meu_haras/view/component/label_table.dart';
 import 'package:shimmer/shimmer.dart';
 import 'package:url_launcher/url_launcher.dart';
 

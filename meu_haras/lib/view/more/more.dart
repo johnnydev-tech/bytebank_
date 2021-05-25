@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:haras_app/Controller/UsuarioController.dart';
-import 'package:haras_app/view/Login.dart';
+import 'package:meu_haras/Controller/UsuarioController.dart';
+import 'package:meu_haras/view/Login.dart';
 
 class MoreScreen extends StatefulWidget {
   const MoreScreen({Key key}) : super(key: key);

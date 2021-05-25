@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:haras_app/Controller/UsuarioController.dart';
-import 'package:haras_app/Model/usuario.dart';
-import 'package:haras_app/view/Cadastro.dart';
-import 'package:haras_app/view/Principal.dart';
-import 'package:haras_app/view/forgot_password/forgot_password.dart';
+import 'package:meu_haras/Controller/UsuarioController.dart';
+import 'package:meu_haras/Model/usuario.dart';
+import 'package:meu_haras/view/Cadastro.dart';
+import 'package:meu_haras/view/Principal.dart';
+import 'package:meu_haras/view/forgot_password/forgot_password.dart';
 
 class Login extends StatefulWidget {
   @override

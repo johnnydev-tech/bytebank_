@@ -1,7 +1,7 @@
 import 'package:http/http.dart' as http;
 import 'dart:convert';
-import 'package:haras_app/Model/habilidade.dart';
-import 'package:haras_app/Services/api.dart' as api;
+import 'package:meu_haras/Model/habilidade.dart';
+import 'package:meu_haras/Services/api.dart' as api;
 import 'package:shared_preferences/shared_preferences.dart';
 
 Future<List<Habilidade>> get() async {

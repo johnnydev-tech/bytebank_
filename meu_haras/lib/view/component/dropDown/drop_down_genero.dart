@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:haras_app/Model/genero.dart';
-import 'package:haras_app/Controller/GeneroController.dart' as generoAPI;
+import 'package:meu_haras/Model/genero.dart';
+import 'package:meu_haras/Controller/GeneroController.dart' as generoAPI;
 
 class DropDownGenero extends StatefulWidget {
   final Function(String) onChange;

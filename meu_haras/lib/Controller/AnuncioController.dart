@@ -1,11 +1,11 @@
 import 'dart:io';
 import 'package:async/async.dart';
 import 'package:flutter/material.dart';
-import 'package:haras_app/view/Login.dart';
+import 'package:meu_haras/view/Login.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
-import 'package:haras_app/Services/api.dart' as api;
-import 'package:haras_app/Model/anuncio.dart';
+import 'package:meu_haras/Services/api.dart' as api;
+import 'package:meu_haras/Model/anuncio.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class AnunciosApi {

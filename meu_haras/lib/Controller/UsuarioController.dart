@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:haras_app/Model/usuario.dart';
-import 'package:haras_app/view/Login.dart';
+import 'package:meu_haras/Model/usuario.dart';
+import 'package:meu_haras/view/Login.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
-import 'package:haras_app/Services/api.dart' as api;
+import 'package:meu_haras/Services/api.dart' as api;
 import 'package:shared_preferences/shared_preferences.dart';
 
 class UsuarioController {

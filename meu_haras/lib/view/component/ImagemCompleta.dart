@@ -2,8 +2,8 @@ import 'dart:convert';
 
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-import 'package:haras_app/Controller/ImagemController.dart';
-import 'package:haras_app/Model/imagens.dart';
+import 'package:meu_haras/Controller/ImagemController.dart';
+import 'package:meu_haras/Model/imagens.dart';
 import 'package:photo_view/photo_view.dart';
 import 'package:shimmer/shimmer.dart';
 

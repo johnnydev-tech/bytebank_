@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:haras_app/view/Cadastro.dart';
-import 'package:haras_app/view/Login.dart';
+import 'package:meu_haras/view/Cadastro.dart';
+import 'package:meu_haras/view/Login.dart';
 
 class Inicio extends StatefulWidget {
   @override

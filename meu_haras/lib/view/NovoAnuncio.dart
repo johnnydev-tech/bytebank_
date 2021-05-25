@@ -1,15 +1,15 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
-import 'package:haras_app/view/Principal.dart';
-import 'package:haras_app/view/component/card_custom.dart';
-import 'package:haras_app/view/component/dropDown/drop_down_genero.dart';
-import 'package:haras_app/view/component/dropDown/drop_down_habilidade.dart';
-import 'package:haras_app/view/component/dropDown/drop_down_linhagem.dart';
-import 'package:haras_app/view/component/dropDown/drop_down_pelagem.dart';
-import 'package:haras_app/view/component/dropDown/drop_down_raca.dart';
-import 'package:haras_app/view/component/textField.dart';
+import 'package:meu_haras/view/Principal.dart';
+import 'package:meu_haras/view/component/card_custom.dart';
+import 'package:meu_haras/view/component/dropDown/drop_down_genero.dart';
+import 'package:meu_haras/view/component/dropDown/drop_down_habilidade.dart';
+import 'package:meu_haras/view/component/dropDown/drop_down_linhagem.dart';
+import 'package:meu_haras/view/component/dropDown/drop_down_pelagem.dart';
+import 'package:meu_haras/view/component/dropDown/drop_down_raca.dart';
+import 'package:meu_haras/view/component/textField.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:haras_app/Controller/AnuncioController.dart';
+import 'package:meu_haras/Controller/AnuncioController.dart';
 
 class NovoAnuncio extends StatefulWidget {
   @override

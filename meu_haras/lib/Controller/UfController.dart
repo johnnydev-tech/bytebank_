@@ -1,6 +1,6 @@
-import 'package:haras_app/Model/cidades.dart';
-import 'package:haras_app/Services/api.dart' as api;
-import 'package:haras_app/Model/uf.dart';
+import 'package:meu_haras/Model/cidades.dart';
+import 'package:meu_haras/Services/api.dart' as api;
+import 'package:meu_haras/Model/uf.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 

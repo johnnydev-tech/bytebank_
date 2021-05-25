@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:haras_app/Model/raca.dart';
-import 'package:haras_app/Controller/RacaController.dart' as racaAPI;
+import 'package:meu_haras/Model/raca.dart';
+import 'package:meu_haras/Controller/RacaController.dart' as racaAPI;
 
 class DropDownRaca extends StatefulWidget {
   final Function(String) onChange;

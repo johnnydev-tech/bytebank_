@@ -1,23 +1,22 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:haras_app/Model/genero.dart';
-import 'package:haras_app/Model/habilidade.dart';
-import 'package:haras_app/Model/pelagem.dart';
-import 'package:haras_app/Model/raca.dart';
-import 'package:haras_app/Model/treinado.dart';
-import 'package:haras_app/view/Lista.dart';
-import 'package:haras_app/view/NovoAnuncio.dart';
-
-import 'package:haras_app/view/component/AlertRegiao.dart';
-import 'package:haras_app/Controller/RacaController.dart' as racaAPI;
-import 'package:haras_app/Controller/PelagemController.dart' as pelagemAPI;
-import 'package:haras_app/Controller/TreinadoController.dart' as treinadoAPI;
-import 'package:haras_app/Controller/HabilidadeController.dart'
+import 'package:meu_haras/Model/genero.dart';
+import 'package:meu_haras/Model/habilidade.dart';
+import 'package:meu_haras/Model/pelagem.dart';
+import 'package:meu_haras/Model/raca.dart';
+import 'package:meu_haras/Model/treinado.dart';
+import 'package:meu_haras/view/Lista.dart';
+import 'package:meu_haras/view/NovoAnuncio.dart';
+import 'package:meu_haras/view/component/AlertRegiao.dart';
+import 'package:meu_haras/Controller/RacaController.dart' as racaAPI;
+import 'package:meu_haras/Controller/PelagemController.dart' as pelagemAPI;
+import 'package:meu_haras/Controller/TreinadoController.dart' as treinadoAPI;
+import 'package:meu_haras/Controller/HabilidadeController.dart'
     as habilidadeAPI;
-import 'package:haras_app/Controller/GeneroController.dart' as generoAPI;
-import 'package:haras_app/view/more/more.dart';
-import 'package:haras_app/view/profile/profile.dart';
+import 'package:meu_haras/Controller/GeneroController.dart' as generoAPI;
+import 'package:meu_haras/view/more/more.dart';
+import 'package:meu_haras/view/profile/profile.dart';
 
 class Principal extends StatefulWidget {
   final String raca;
